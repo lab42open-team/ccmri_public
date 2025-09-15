@@ -1,0 +1,7 @@
+model	dataset	k	n_repeats	threshold	accuracy	precision	recall	specificity	f1	tp	tn	fp	fn
+logistic_regression	all_training_combined_super_vector	5	1	0.5	0.957	0.667	0.400	0.989	0.500	6	264	3	9
+logistic_regression	all_training_combined_super_vector	5	1	0.5	0.961	0.750	0.529	0.989	0.621	9	262	3	8
+logistic_regression	all_training_combined_super_vector	5	1	0.5	0.954	0.500	0.154	0.993	0.235	2	267	2	11
+logistic_regression	all_training_combined_super_vector	5	1	0.5	0.954	0.583	0.467	0.981	0.519	7	261	5	8
+logistic_regression	all_training_combined_super_vector	5	1	0.5	0.943	0.429	0.200	0.985	0.273	3	262	4	12
+logistic_regression	avg_all_training_combined_super_vector	5	1	0.5	0.954	0.586	0.350	0.987	0.429	5	263	3	10

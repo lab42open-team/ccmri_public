@@ -1,0 +1,7 @@
+model	dataset	k	n_repeats	threshold	accuracy	precision	recall	specificity	f1	tp	tn	fp	fn
+logistic_regression	k_folds_combined_super_vector	5	1	0.5	0.901	0.400	0.333	0.954	0.364	2	62	3	4
+logistic_regression	k_folds_combined_super_vector	5	1	0.5	0.957	0.500	0.333	0.985	0.400	1	66	1	2
+logistic_regression	k_folds_combined_super_vector	5	1	0.5	0.943	1.000	0.429	1.000	0.600	3	63	0	4
+logistic_regression	k_folds_combined_super_vector	5	1	0.5	0.971	0.667	0.667	0.985	0.667	2	66	1	1
+logistic_regression	k_folds_combined_super_vector	5	1	0.5	0.857	0.667	0.182	0.983	0.286	2	58	1	9
+logistic_regression	avg_k_folds_combined_super_vector	5	1	0.5	0.926	0.647	0.389	0.981	0.463	2	63	1	4
